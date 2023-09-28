@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# This script performs log rotation and backup for a hypothetical web server.
+
+# Get the current date and time.
+today=$(date +"%Y-%m-%d")
+
+# Create a backup directory for the current day.
+backup_dir="/var/log/backups/$today"
+
+# Create a log rotation script.
+log_rotation_script="/etc/logrotate.d/web_server"
+
+# Check if the log rotation script exists.
+if [ -f $log_rotation_script ]; then
+
+  # Run the log rotation script.
+  /etc/logrotate.d/web_server
+
+fi
+
+# Create a backup of the rotated logs.
+backup_logs="/var/log/web_server-$today"
+
+# Create a backup directory for the current day.
+backup_dir="/var/backups/$today"
+
+# Create a backup script.
+backup_script="/etc/cron.daily/web_server_backup"
+
+# Check if the backup script exists.
+if [ -f $backup_script ]; then
+
+  # Run the backup script.
+  /etc/cron.daily/web_server_backup
+
+fi
