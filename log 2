@@ -13,4 +13,4 @@ for log in $(ls "$LOG_DIR"); do
 done
 
 # Success!
-echo "Log rotation and backup completed successfully."
+echo "Log rotation and backup is completed successfully."
