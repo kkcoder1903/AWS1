@@ -12,3 +12,4 @@ RUN pip install Pillow
 
 # Run pythonscript.py when the container launches
 CMD ["python", "./pythonscript.py"]
+
