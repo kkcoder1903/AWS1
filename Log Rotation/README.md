@@ -1,6 +1,6 @@
 # Log Rotation and Backup Bash Script
 
-This bash script is designed to perform log rotation and backup for a specific log file on a hypothetical web server. Log rotation is a common practice to manage log files and prevent them from growing indefinitely. This script allows you to rotate and archive log files to save disk space while preserving historical data.
+This bash script is designed to perform log rotation and backup for a specific log file on a hypothetical web server. Log rotation is a common practice to manage log files and prevent them from growing indefinitely. This script allows you to rotate and archive log files to save disk space while preserving data.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Follow these steps to create and use the log rotation and backup script:
 
 2. **Add Script Content**:
 
-   Copy and paste the following script content into the file:
+   ADD to the file rotate_and_backup.sh:
 
    ```bash
    #!/bin/bash
@@ -42,7 +42,7 @@ Follow these steps to create and use the log rotation and backup script:
 
 3. **Save and Exit**:
 
-   Save the file and exit your text editor.
+   Save the file and exit your text editor using :qw enter
 
 4. **Make the Script Executable**:
 
@@ -82,4 +82,4 @@ Follow these steps to create and use the log rotation and backup script:
 
 - The script removes log files in the `BACKUP_DIR` that are older than 7 days to manage disk space.
 
-This script helps you maintain log files effectively, ensuring that you have access to historical data while keeping disk space usage under control.
+
