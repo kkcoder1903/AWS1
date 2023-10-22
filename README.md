@@ -1,14 +1,9 @@
 # Learning AWS Services
 
-## Instructor
-
-- **Instructor's Name**: [Getty Hongla]
   
-
 ## Course Overview
 
-This repository is designed to accompany a course on learning Amazon Web Services (AWS) services. The course is instructed by [Getty Hongla], an expert in AWS cloud services.
-
+This repository is designed to accompany a course on learning Amazon Web Services (AWS) services.
 
 ## Course Outline
 
